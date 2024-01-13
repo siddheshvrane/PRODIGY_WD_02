@@ -1,0 +1,58 @@
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: verdana;
+} 
+#main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pixelz.cc/wp-content/uploads/2018/07/avatar-pandora-dual-monitor-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.container { 
+    width: 650px;
+    height: 650px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    background:  rgba(255, 255, 255, 0.1);
+} 
+.digit { 
+    font-size: 85px; 
+    color: white;
+    opacity: 0.9; 
+} 
+  
+.txt { 
+    font-size: 25px; 
+    color: white;
+    opacity: 0.5;
+} 
+  
+#buttons { 
+    margin-top: 50px; 
+} 
+  
+.btn { 
+    width: 100px; 
+    padding: 10px 15px; 
+    margin: 0px 50px; 
+    border-radius: 10px;  
+    cursor: pointer; 
+    font-size: 20px; 
+    transition: 0.5s; 
+    color: white; 
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(225, 225, 225, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
